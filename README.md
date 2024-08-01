@@ -41,6 +41,9 @@ make install-commandmode
 
 make install-webconf
 
+You can change email
+vi /usr/local/nagios/etc/objects/contacts.cfg
+
 htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
 service httpd restart
 
