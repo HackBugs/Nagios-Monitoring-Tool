@@ -2,7 +2,7 @@
 ### Author : ✍️ Hackbugs
 ### CODE USED FOR INSTALLATION
 ________________________________________
-
+```sh
 sudo su
 yum install httpd php
 yum install gcc glibc glibc-common
@@ -58,6 +58,7 @@ service nagios start
 service httpd restart
 
 `END OF CODE`
+```
 ________________________________________________________________________________________________________________________
 
  - Daemon start Plugins Service
