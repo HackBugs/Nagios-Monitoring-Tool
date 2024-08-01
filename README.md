@@ -53,7 +53,6 @@ tar zxvf nagios-plugins-2.0.3.tar.gz
 cd nagios-plugins-2.0.3
 
 ./configure --with-nagios-user=nagios --with-nagios-group=nagios
-make
 make install
 
 
