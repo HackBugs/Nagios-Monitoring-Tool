@@ -18,8 +18,13 @@ usermod -a -G nagioscmd apache
 mkdir ~/downloads
 cd ~/downloads
 
-wget https://excellmedia.dl.sourceforge.net/project/nagios/nagios-4.x/nagios-4.0.8/nagios-4.0.8.tar.gz?viasf=1
-wget https://nagios-plugins.org/download/nagios-plugins-2.0.3.tar.gz
+First use this -
+wget http://prdownloads.sourceforge.net/sourceforge.net/nagios/nagios-4.x/nagios-4.0.8.gz
+wget http://nagios-plugins.org/download/nagios-plugins-2.0.3.tar.gz
+
+if first not work than use it
+# wget https://excellmedia.dl.sourceforge.net/project/nagios/nagios-4.x/nagios-4.0.8/nagios-4.0.8.tar.gz?viasf=1
+# wget https://nagios-plugins.org/download/nagios-plugins-2.0.3.tar.gz
 
 tar zxvf nagios-4.0.8.tar.gz
 cd nagios-4.0.8
