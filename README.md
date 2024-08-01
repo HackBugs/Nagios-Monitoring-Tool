@@ -4,8 +4,8 @@
 ________________________________________
 ```sh
 sudo su
-yum install httpd php
-yum install gcc glibc glibc-common
+yum install httpd php -y
+yum install gcc glibc glibc-common -y
 yum install gd gd-devel
 
 adduser -m nagios
